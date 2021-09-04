@@ -1,6 +1,7 @@
 {
   "name": "@spext/amazing-toolkit",
-  "version": "1.0.7",
+  "private": false,
+  "version": "1.0.8",
   "description": "A nice toolkit",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -19,23 +20,23 @@
     "dist/**/*"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "@codeahsu:registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/spext/amazing-toolkit.git"
+    "url": "git+https://github.com/Spext/amazing-toolkit.git"
   },
   "keywords": [
     "toolkit",
     "hackathon",
     "office"
   ],
-  "author": "ashuspext",
+  "author": "spext",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/spext/amazing-toolkit/issues"
+    "url": "https://github.com/Spext/amazing-toolkit/issues"
   },
-  "homepage": "https://github.com/spext/amazing-toolkit#readme",
+  "homepage": "https://github.com/Spext/amazing-toolkit#readme",
   "devDependencies": {
     "@types/config": "0.0.36",
     "@types/nodemailer": "^6.4.0",
